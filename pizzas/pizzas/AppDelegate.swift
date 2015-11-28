@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  pizzas
-//
-//  Created by Alberto De Avila Hernandez on 15/11/15.
-//  Copyright © 2015 Alberto De Avila Hernandez. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

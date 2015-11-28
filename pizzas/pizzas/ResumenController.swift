@@ -1,11 +1,3 @@
-//
-//  ResumenController.swift
-//  pizzas
-//
-//  Created by Alberto De Avila Hernandez on 15/11/15.
-//  Copyright © 2015 Alberto De Avila Hernandez. All rights reserved.
-//
-
 import UIKit
 
 class ResumenController: UIViewController {
@@ -15,6 +7,7 @@ class ResumenController: UIViewController {
     var quesoPizza: String = ""
     var ingredientesPizza: [String] = []
     
+    @IBOutlet weak var confirmarButton: UIButton!
     @IBOutlet weak var tamañoLabel: UILabel!
     @IBOutlet weak var masaLabel: UILabel!
     @IBOutlet weak var quesoLabel: UILabel!
@@ -26,6 +19,10 @@ class ResumenController: UIViewController {
         quesoLabel.text = quesoPizza
         ingredientesLabel.text = ingredientesPizza.joinWithSeparator("\n")
         
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        segue.destinationViewController as! ExtrasController
     }
 
     override func didReceiveMemoryWarning() {

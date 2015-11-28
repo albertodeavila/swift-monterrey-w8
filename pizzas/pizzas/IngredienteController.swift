@@ -1,15 +1,6 @@
-//
-//  IngredienteController.swift
-//  pizzas
-//
-//  Created by Alberto De Avila Hernandez on 15/11/15.
-//  Copyright © 2015 Alberto De Avila Hernandez. All rights reserved.
-//
-
 import UIKit
 
 class IngredienteController: UIViewController {
-
     
     var tamañoPizza: String = ""
     var masaPizza: String = ""
@@ -88,7 +79,5 @@ class IngredienteController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
-
    
 }

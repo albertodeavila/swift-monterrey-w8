@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  pizzas
-//
-//  Created by Alberto De Avila Hernandez on 15/11/15.
-//  Copyright © 2015 Alberto De Avila Hernandez. All rights reserved.
-//
-
 import UIKit
 
 class TamañoPizzaController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
@@ -21,7 +13,6 @@ class TamañoPizzaController: UIViewController, UIPickerViewDelegate, UIPickerVi
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

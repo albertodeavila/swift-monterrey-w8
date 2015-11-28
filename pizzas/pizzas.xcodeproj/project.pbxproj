@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6C5DA2F1C09CA0D00767E0D /* FinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C5DA2E1C09CA0D00767E0D /* FinController.swift */; };
 		E6D989301BF8E691002EF7FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D9892F1BF8E691002EF7FE /* AppDelegate.swift */; };
 		E6D989321BF8E691002EF7FE /* TamañoPizzaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D989311BF8E691002EF7FE /* TamañoPizzaController.swift */; };
 		E6D989351BF8E691002EF7FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D989331BF8E691002EF7FE /* Main.storyboard */; };
@@ -16,9 +17,11 @@
 		E6D989441BF8FA32002EF7FE /* ResumenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D989431BF8FA32002EF7FE /* ResumenController.swift */; };
 		E6D989461BF8FCB8002EF7FE /* QuesoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D989451BF8FCB8002EF7FE /* QuesoController.swift */; };
 		E6D989481BF9052C002EF7FE /* IngredienteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D989471BF9052C002EF7FE /* IngredienteController.swift */; };
+		E6E323251C08DB330089212B /* ExtrasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E323241C08DB330089212B /* ExtrasController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E6C5DA2E1C09CA0D00767E0D /* FinController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinController.swift; sourceTree = "<group>"; };
 		E6D9892C1BF8E691002EF7FE /* pizzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pizzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D9892F1BF8E691002EF7FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6D989311BF8E691002EF7FE /* TamañoPizzaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TamañoPizzaController.swift"; sourceTree = "<group>"; };
@@ -30,6 +33,7 @@
 		E6D989431BF8FA32002EF7FE /* ResumenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumenController.swift; sourceTree = "<group>"; };
 		E6D989451BF8FCB8002EF7FE /* QuesoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesoController.swift; sourceTree = "<group>"; };
 		E6D989471BF9052C002EF7FE /* IngredienteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredienteController.swift; sourceTree = "<group>"; };
+		E6E323241C08DB330089212B /* ExtrasController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtrasController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				E6D9893B1BF8E691002EF7FE /* Info.plist */,
 				E6D989431BF8FA32002EF7FE /* ResumenController.swift */,
 				E6D989471BF9052C002EF7FE /* IngredienteController.swift */,
+				E6E323241C08DB330089212B /* ExtrasController.swift */,
+				E6C5DA2E1C09CA0D00767E0D /* FinController.swift */,
 			);
 			path = pizzas;
 			sourceTree = "<group>";
@@ -152,7 +158,9 @@
 				E6D989461BF8FCB8002EF7FE /* QuesoController.swift in Sources */,
 				E6D989301BF8E691002EF7FE /* AppDelegate.swift in Sources */,
 				E6D989481BF9052C002EF7FE /* IngredienteController.swift in Sources */,
+				E6E323251C08DB330089212B /* ExtrasController.swift in Sources */,
 				E6D989421BF8F6B4002EF7FE /* MasaController.swift in Sources */,
+				E6C5DA2F1C09CA0D00767E0D /* FinController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
